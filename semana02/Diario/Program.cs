@@ -58,8 +58,7 @@ public class Program
 
     private static void ExibirMenu()
     {
-        Console.WriteLine("
-===== PROGRAMA DE DIÁRIO =====");
+        Console.WriteLine("\n===== PROGRAMA DE DIÁRIO =====");
         Console.WriteLine("1. Escrever um novo registro");
         Console.WriteLine("2. Exibir o diário");
         Console.WriteLine("3. Salvar o diário em arquivo");
@@ -70,8 +69,7 @@ public class Program
     private static void EscreverRegistro(Diario diario, GeradorDePerguntas gerador)
     {
         string pergunta = gerador.ObterPerguntaAleatoria();
-        Console.WriteLine($"
-{pergunta}");
+        Console.WriteLine($"\n{pergunta}");
         Console.Write("> ");
         string? resposta = Console.ReadLine();
 

@@ -21,8 +21,7 @@ public class Diario
             return;
         }
 
-        Console.WriteLine($"
---- Meu diário: {_registros.Count} registro(s) ---");
+        Console.WriteLine($"\n--- Meu diário: {_registros.Count} registro(s) ---");
         foreach (Registro registro in _registros)
         {
             registro.Exibir();
