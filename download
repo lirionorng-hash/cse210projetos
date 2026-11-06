@@ -1,0 +1,4 @@
+**/bin/
+**/obj/
+**/diario.json
+**/*.user
